@@ -15,9 +15,11 @@ const portToString = (port: number) => `PORT: ${port.toString()}`;
 console.log(portToString(port));
 ```
 
-### Functional code is stateless = Immutable data
+### Functional code is stateless 
+Immutable data
 
-## First order function = function that takes a value and returns another (to mutate data = new data)
+## First order function 
+Function that takes a value and returns another (to mutate data = new data)
 
 ```
 const appendPM = (val: number) => val.toString() + ' PM';
